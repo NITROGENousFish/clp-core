@@ -31,7 +31,9 @@ if [ $installed -ne 0 ] ; then
   if [ ! -e ${extracted_dir} ] ; then
     tar_filename=v${version}.tar.gz
     if [ ! -e ${tar_filename} ] ; then
-      wget https://github.com/lz4/lz4/archive/${tar_filename}
+      # wget https://github.com/lz4/lz4/archive/${tar_filename}
+    	# nitrogenoufish modified here
+	    wget https://github.com/lz4/lz4/archive/refs/tags/v1.8.2.tar.gz
     fi
 
     tar -xf ${tar_filename}
