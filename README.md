@@ -51,7 +51,7 @@ This will download:
 Manualy install ：[checkinstall](rnd.rajven.net/centos/6/os/x86_64/[checkinstall-1.6.2-1.cnt6.x86_64.rpm](http://rpm.pbone.net/info_idpl_68554969_distro_centosother_com_checkinstall-1.6.2-1.cnt6.x86_64.rpm.html))
 
 ```shell
-yum install openssl-devel pkgconfig boost-devel zlib-devel
+yum install cmake dpkg openssl-devel pkgconfig boost-devel zlib-devel
 ```
 
 
